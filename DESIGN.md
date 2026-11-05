@@ -1,16 +1,19 @@
 # Shristi Kumari — Design context
 
 ## North star
-An approachable, thoughtful first-year law student whose curiosity extends into code. A personal portfolio, in English, for peers, mentors, and collaborators. Six genuine routes: home, about, education, skills, explorations, contact.
+A technology-first personal portfolio for an early learner in Python, web development, and data science. Law is a secondary academic perspective. One scrolling page with home, about, toolkit, explorations, education, and contact. English, aimed at peers, mentors, and potential collaborators.
 
 ## Visual direction
-Lilac legal notebook meets a developer's workspace. Oversized geometric sans-serif headlines, a restrained italic serif for personal asides, purple ink, dot-grid paper, and a custom justice-and-code illustration. Avoid stock portraits, fabricated achievements, percentage skill meters, and generic corporate imagery.
+Luxury developer's notebook: midnight navy surfaces, champagne details, ivory content sections, and restrained emerald. Spacious editorial composition with Georgia italic accents and understated Arial body copy. Custom animated developer terminal and data-widget artwork. Full name “Shristi Kumari” appears at the top right, including mobile.
 
-## Runtime tokens
-Canonical CSS variables live in app/globals.css. Background #faf9f6; ink #26232d; muted #696570; accent #7453af; pale lilac #eee8f6; line #e5e1e8; green #52755b. Typography: Arial/Helvetica body and display, Georgia italic accents, monospace code. Content max width 1200px. Cards 16–22px radii; pill actions. The header and footer are shared across all routes.
+## Runtime token ownership
+app/globals.css is the canonical runtime source: --background #f5f3ed; --ink #1d2831; --muted #6e7478; --accent #b39766; --gold #d6bb87; --night #101d29; --night-deep #0c1721; --line #deded5; --green #789e8d. Components use these tokens; illustration-specific code syntax colors are intentionally independent. 1200px content width, 3–7px radii, hairline dividers, generous section spacing.
 
-## Layout and motion
-Desktop split hero with a unique illustration; mobile uses a single column and a disclosure menu. Content keeps natural document scrolling. Subtle entry animation only; respect reduced motion. Visible keyboard focus, descriptive link labels, semantic headings, labelled controls, 44px interaction targets, accessible color contrast.
+## Navigation and interaction
+All main navigation uses same-page anchor links with sticky-header offsets. Mobile navigation is a labelled disclosure. Project concepts have filters and native expandable briefs. Contact validates inline and downloads a local introduction; it never claims to send a message. Profile download is a real text file. No fabricated personal contacts, experience, scores, completed projects, or expertise.
 
-## Content and behavior
-Only user-supplied achievements are stated as completed. Added skills are labelled as developing. Explorations are explicitly project ideas, with functioning filters and expandable briefs. No invented email or social profiles. Contact offers a downloadable introduction template and explains that contact details are pending. Institution source: Bihar government's college listing at https://www.7nishchay-yuvaupmission.bihar.gov.in/listofcollegedetail. Do not claim current accreditation, rankings, or an official college website without verification.
+## Motion and accessibility
+Scroll progress line, reveal-on-scroll via IntersectionObserver, slowly scrolling interest ribbon, subtly floating terminal, chart widget, and accent tag. Animations use transforms and opacity, scrolling work is requestAnimationFrame throttled. Full reduced-motion support; content remains visible without JavaScript. Hover pauses the ribbon. Keyboard focus is visible; form errors are associated and focus the first invalid field. Natural document scrolling and responsive single-column mobile layout.
+
+## Evidence and content
+User-supplied identity, education and skills are factual. Additional abilities are explicitly developing, and projects are labelled concepts. College affiliation is verified from the Bihar government college listing: https://www.7nishchay-yuvaupmission.bihar.gov.in/listofcollegedetail. Do not imply current accreditation or publish personal contact details without evidence.

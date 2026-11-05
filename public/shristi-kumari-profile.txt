@@ -1,9 +1,10 @@
 SHRISTI KUMARI
-Law student | Technology explorer
+Technology enthusiast | Python & web development learner
 Patna, Bihar, India
 
 ABOUT
-A first-year B.A. LL.B. student exploring law, technology, and data science.
+A technology enthusiast exploring Python, web development, and data science,
+alongside first-year B.A. LL.B. studies.
 
 EDUCATION
 B.A. LL.B. — Mona Law College, Patna — Currently in first year
@@ -20,8 +21,8 @@ Legal technology, digital rights, data science, accessible legal knowledge,
 and web development.
 
 CURRENT FOCUS
-Building strong legal foundations and exploring beginner-friendly coding
-and data science projects. Project concepts shown on the portfolio are
+Exploring beginner-friendly coding, web development, and data science
+projects alongside legal studies. Project concepts shown on the portfolio are
 learning ideas, not completed work.
 
 Contact details will be added when available.

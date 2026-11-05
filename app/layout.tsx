@@ -3,8 +3,8 @@ import { Header, Footer } from "./components/shell";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: { default: "Shristi Kumari | Law, code & curiosity", template: "%s | Shristi Kumari" },
-  description: "Meet Shristi Kumari, a first-year B.A. LL.B. student in Patna exploring the intersection of law, technology, and data science.",
+  title: { default: "Shristi Kumari | Technology, curiosity & possibility", template: "%s | Shristi Kumari" },
+  description: "Meet Shristi Kumari, a technology enthusiast in Patna exploring Python, web development, and data science alongside her B.A. LL.B. studies.",
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return <html lang="en"><body><a className="skip-link" href="#main">Skip to content</a><Header />{children}<Footer /></body></html>;
